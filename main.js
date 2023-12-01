@@ -43,6 +43,9 @@ document.getElementById('nextButtongithub').addEventListener('click', function()
 document.getElementById('nextButtonconnect').addEventListener('click', function() {
   window.location.href = 'https://bio.site/Developer_Priyank';
 });
+document.getElementById('nextButtonNotes').addEventListener('click', function() {
+  window.location.href = 'note.html';
+});
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
     strings : ["Learner","Developer"],
