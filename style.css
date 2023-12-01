@@ -635,6 +635,9 @@ footer{
     .input-field{
         width: 100%;
     }
+    .featured-text-btn{
+        flex-direction: column;
+    }
 }
 /* Pop--Pop */
 .popup {
