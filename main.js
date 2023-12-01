@@ -46,9 +46,6 @@ document.getElementById('nextButtonconnect').addEventListener('click', function(
 document.getElementById('nextButtonNotes').addEventListener('click', function() {
   window.location.href = 'note.html';
 });
-document.getElementById('nextButtonPy').addEventListener('click', function() {
-  window.location.href = 'https://drive.google.com/file/d/1jfAALBBRQcDDVIK6t33sy33aJx_BP4j6/view?usp=drive_link';
-});
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
     strings : ["Learner","Developer"],
