@@ -49,7 +49,7 @@ document.getElementById('nextButtonNotes').addEventListener('click', function() 
 document.getElementById('nextButtonAnswer').addEventListener('click', function() {
   window.location.href = 'Answer.html';
 });
-document.getElementById('nextButtonPSNM').addEventListener('click', function() {
+document.getElementById('nextButtonAnswertoPSNM').addEventListener('click', function() {
   window.location.href = 'PSNM.html';
 });
 /* ----- TYPING EFFECT ----- */
