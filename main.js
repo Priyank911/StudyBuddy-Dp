@@ -46,6 +46,12 @@ document.getElementById('nextButtonconnect').addEventListener('click', function(
 document.getElementById('nextButtonNotes').addEventListener('click', function() {
   window.location.href = 'note.html';
 });
+document.getElementById('nextButtonAnswer').addEventListener('click', function() {
+  window.location.href = 'Answer.html';
+});
+document.getElementById('nextButtonPSNM').addEventListener('click', function() {
+  window.location.href = 'PSNM.html';
+});
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
     strings : ["Learner","Developer"],
